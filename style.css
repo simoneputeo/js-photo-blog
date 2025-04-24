@@ -1,4 +1,4 @@
----------fonts-----------------
+
 .sometype-mono{
     font-family: "Sometype Mono", monospace;
     font-optical-sizing: auto;
@@ -13,16 +13,14 @@
     font-style: normal;
   }
 
---------backgrounds---------------
 
-#page-header {background: #639ff8;
+#page-header {
     height: 100px;
-    background-size: 36%;
     line-height: 90px;
     background-image: url("./img/wall.png");
     background-size: repeat;
     background-position: center;
-    height: 1000vh;
+    height: 10vh;
   }
 
 
@@ -34,6 +32,8 @@
 
   } 
 
+
+  
   .card-pin {
     position: absolute;
     top: 0;
@@ -42,3 +42,12 @@
     z-index: 10;
 
  }
+
+
+ img[alt="delta"]{
+    object-position: 70%;
+object-fit:cover;
+x: 40%;
+ aspect-ratio: 1;
+ }
+ 
