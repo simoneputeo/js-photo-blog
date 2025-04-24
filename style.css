@@ -1,0 +1,38 @@
+---------fonts-----------------
+.sometype-mono{
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.edu-tas-beginner {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+--------backgrounds---------------
+
+.bg-header {
+    background-image: url("./img/wall.png");
+    background-size: repeat;
+    background-position: center;
+    min-height: 100vh;
+    height: 100vh;
+    border: 3px solid lime;
+
+
+    
+  }
+
+
+  .bg-main {
+    background-image: url("./img/cork.png");
+    background-size: repeat;
+    background-position: center;
+    height: 100vh;
+    border: 3px solid lime;
+
+  }
