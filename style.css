@@ -1,0 +1,78 @@
+.sometype-mono{
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.edu-tas-beginner {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#page-header {
+  height: 100px;
+  line-height: 90px;
+  background-image: url("./img/wall.png");
+  background-size: repeat;
+  background-position: center;
+  height: 10vh;
+}
+
+.bg-main {
+  background-image: url("./img/cork.png");
+  background-size: repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.card-pin {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  z-index: 10;
+}
+
+
+
+.card-image {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card-image:hover {
+  transform: scale(1.05) rotate(10deg);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  display: none;
+}
+
+.overlay-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+}
+
+.overlay-content img {
+  max-height: 70vh;
+  max-width: 100%;
+}
